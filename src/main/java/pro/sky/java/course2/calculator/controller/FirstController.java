@@ -60,7 +60,7 @@ public class FirstController {
             return "Отсутствует один или оба параметра";
         }
         if (num2 == 0) {
-            return "на 0 делить нельзя!";
+            return "на 0 делить нельзя!!!";
         }
         return calculationService.devide(num1, num2);
     }
